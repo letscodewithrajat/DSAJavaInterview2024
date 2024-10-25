@@ -51,11 +51,11 @@ public class Main {
         System.out.println("size: " +dynamicArray.size());
         System.out.println("capacity: " +dynamicArray.capacity());
 
-        /*dynamicArray.insert(0,"X");
+        dynamicArray.insert(0,"X");
         dynamicArray.delete("A");
-        System.out.println(dynamicArray.search("C"));*/
+        System.out.println(dynamicArray.search("C"));
 
-        //System.out.println(dynamicArray);
+        System.out.println(dynamicArray);
         /*
         System.out.println("Empty: " +dynamicArray.isEmpty());
         System.out.println("size: " +dynamicArray.size());

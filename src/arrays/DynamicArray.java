@@ -67,6 +67,10 @@ for (int i=0; i<size;i++){
         return -1;
     }
 
+    public Object get(int index){
+        return arr[index];
+    }
+
     private void grow() {
         int newCapacity = capacity * 2;
         Object newArray[] = new Object[newCapacity];
